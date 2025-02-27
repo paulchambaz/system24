@@ -23,11 +23,11 @@
 	/* decreases letter spacing for better readability. */
 	font-weight: 400;
 	/* UI font weight. */
-	--label-font-weight: 500;
+	--label-font-weight: 400;
 	/* font weight for panel labels. */
 	--corner-text: 'gruvbox material';
 	/* custom text to display in the corner. only works on windows. */
-	--pad: 16px;
+	--pad: 8px;
 	/* padding between panels. */
 	--txt-pad: 10px;
 	/* padding inside panels to prevent labels from clipping */
@@ -75,13 +75,13 @@
 	/* color of accent buttons when clicked. */
 
 	/* borders */
-	--border-width: 2px;
+	--border-width: 1px;
 	/* panel border thickness. */
 	--border-color: var(--bg-2);
 	/* panel border color. */
 	--border-hover-color: var(--acc-0);
 	/* panel border color when hovered. */
-	--border-transition: 0.2s ease;
+	--border-transition: 0.1s ease;
 	/* panel border transition. */
 
 	/* status dot colors */
